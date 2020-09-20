@@ -59,7 +59,7 @@ func gui() {
 			return
 		}
 
-		dialog.ShowInformation("Saved", fmt.Sprintf("Video saved \n%s\n location succesfully\n"+dosya), win)
+		dialog.ShowInformation("Saved", fmt.Sprintf("Video saved \n%s\n location succesfully\n",dosya), win)
 
 	})
 
