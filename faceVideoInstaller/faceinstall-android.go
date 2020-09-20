@@ -33,7 +33,7 @@ func gui() {
 	win := uyg.NewWindow("Facebook Video Downloader ")
 
 	if _, err := ioutil.ReadDir("/sdcard/Download"); err != nil {
-		uyg.SendNotification(fyne.NewNotification("Access Denied !", "I Don't Hava Write File Permission !"))
+		uyg.SendNotification(fyne.NewNotification("Access Denied !", "I Don't Have Write File Permission !"))
 	} else {
 		os.Chdir("/sdcard/Download")
 	}
