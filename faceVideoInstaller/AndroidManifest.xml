@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="net.raifpy.faceinstaller" platformBuildVersionCode="15" platformBuildVersionName="4.0.4-1406430">
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <application  android:title="raifpy FacebookInstaller" android:debuggable="true">
+        <activity  android:title="raifpy FaceInstaller" android:label="Faceinstall" android:name="org.golang.app.GoNativeActivity" android:configChanges="keyboardHidden|orientation">
+            <meta-data android:label="raifpy FaceInstaller" android:name="android.app.lib_name" android:value="faceinstall"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
