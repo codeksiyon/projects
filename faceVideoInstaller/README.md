@@ -13,11 +13,11 @@ Compile:
     fyne package -os android/arm -appID "org.codeksiyon.faceinstaller" .
     adb install ./*.apk
 
-<img src="https://github.com/codeksiyon/projects/blob/master/faceVideoInstaller/img/face-android.jpg" height=400>
+<img src="https://github.com/codeksiyon/projects/blob/master/faceVideoInstaller/img/face-android2.jpg" height=400>
 
 <h2>Desktop</h2>
 Compile:
 
     go build .
     
-<img src="https://github.com/codeksiyon/projects/blob/master/faceVideoInstaller/img/face-desktop.png" height=400>
+<img src="https://github.com/codeksiyon/projects/blob/master/faceVideoInstaller/img/face-desktop2.png" height=400>
