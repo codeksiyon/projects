@@ -60,7 +60,7 @@ func gui() {
 			dialog.ShowInformation("Something went wrong", "I can't find video.\nMaybe your cookies are wrong.\n"+resp.Request.URL.String(), win)
 			return
 		}
-		dosya := "/sdcard/Download/" + time.Now().Format("15:04:05") + ".mp4"
+		dosya := time.Now().Format("15:04:05") + ".mp4"
 
 		err = indirVideo(url, dosya, cookies)
 		if err != nil {
